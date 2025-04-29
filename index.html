@@ -8,26 +8,28 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header style="border: 1px solid red">
-        <div style="border: 1px solid blue;margin: 10px;" class="left-header-container">
+    <header>
+        <div class="left-header-container">
             <div class="left-header-container-top">
                 <img class="icon" src="./res/img/icons/magnify.svg" width="20" alt="magnify-icon">
                 <input class="search-bar" type="text">
             </div>
             <div class="left-header-container-bottom">
                 <img class="avatar medium" src="./res/img/Open Peeps - Avatar (1).png" width="30" alt="icon-image-face-personn">
-                <p>Hi there,</p>
-                <h3>Amolixs25 (@amolixs)</h3>
+                <div>
+                    <p>Hi there,</p>
+                    <h3>Amolixs25 (@amolixs)</h3>
+                </div>
             </div>
         </div>
 
-        <div style="border: 1px solid blue;margin: 10px;" class="right-header-container">
-            <div class="right-top-header-container">
+        <div class="right-header-container">
+            <div class="right-header-container-top">
                 <img class="icon" src="./res/img/icons/bell-ring-outline.svg" width="20" alt="icon-bell-ring">
                 <img class="avatar small" src="./res/img/Open Peeps - Avatar (1).png" width="30" alt="icon-image-face-personn">
                 <p class="login-text">Amolixs25</p>
             </div>
-            <div class="right-bottom-header-container">
+            <div class="right-header-container-bottom">
                 <button class="btn btn-primary">New</button>
                 <button class="btn btn-primary">Upload</button>
                 <button class="btn btn-primary">Share</button>
@@ -35,9 +37,11 @@
         </div>
     </header>
 
-    <aside style="border: 3px solid yellowgreen; margin-top: 10px;">
-        <img class="icon medium" src="./res/img/icons/view-dashboard.svg" width="40" alt="view-dashboard-icon">
-        <h2>Dashboard</h2>
+    <aside>
+        <div class="icon-dashboard-container">
+            <img class="icon medium" src="./res/img/icons/view-dashboard.svg" width="40" alt="view-dashboard-icon">
+            <h2>Dashboard</h2>
+        </div>
         <ul>
             <li><img class="icon" src="./res/img/icons/home.svg" alt="home-icon" width="20">Home</li>
             <li><img class="icon" src="./res/img/icons/card-account-details.svg" alt="card-account-icon" width="20">Profile</li>
@@ -53,119 +57,127 @@
         </ul>
     </aside>
 
-    <main style="border: 3px solid brown; margin-top: 10px;">
-        <section class="projects-section" style="border: 3px solid rgb(42, 161, 165); margin-top: 10px;">
+    <main>
+        <section class="projects-section">
             <h3>Your projects</h3>
-            <div class="projects-container">
-                <div class="card-project" style="border: 1px solid black; margin: 10px;">
+            <div class="section-container">
+                <div class="card-project">
                     <h5 class="title-card-project">
                         project : 1
-                        <p class="body-card-project">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur vero consectetur expedita enim quaerat pariatur accusamus, distinctio facere doloribus vel saepe consequatur quo autem aliquid quasi soluta magnam? Ipsa.</p>
-                        <div class="footer-card-project">
-                            <img src="./res/img/icons/star-plus-outline.svg" alt="star-plus-icon" width="20" class="icon">
-                            <img src="./res/img/icons/eye-plus-outline.svg" alt="eye-plus-icon" width="20" class="icon">
-                            <img src="./res/img/icons/share-variant-outline.svg" alt="share-icon" width="20" class="icon">
-                        </div>
                     </h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur tenetur vero consectetur expedita enim quaerat pariatur accusamus, distinctio facere doloribus vel saepe consequatur quo autem aliquid quasi soluta magnam? Ipsa.</p>
+                    <div class="footer-card-project">
+                        <img src="./res/img/icons/star-plus-outline.svg" alt="star-plus-icon" width="20" class="icon">
+                        <img src="./res/img/icons/eye-plus-outline.svg" alt="eye-plus-icon" width="20" class="icon">
+                        <img src="./res/img/icons/share-variant-outline.svg" alt="share-icon" width="20" class="icon">
+                    </div>
                 </div>
-                <div class="card-project" style="border: 1px solid black; margin: 10px;">
+                <div class="card-project">
                     <h5 class="title-card-project">
                         project : 2
-                        <p class="body-card-project">Expedita dolore doloremque corrupti, velit assumenda impedit quos illum sequi voluptas et dolores accusamus pariatur modi est excepturi voluptatum repellat quia beatae rerum necessitatibus? Beatae optio ex obcaecati veniam quas.</p>
-                        <div class="footer-card-project">
-                            <img src="./res/img/icons/star-plus-outline.svg" alt="star-plus-icon" width="20" class="icon">
-                            <img src="./res/img/icons/eye-plus-outline.svg" alt="eye-plus-icon" width="20" class="icon">
-                            <img src="./res/img/icons/share-variant-outline.svg" alt="share-icon" width="20" class="icon">
-                        </div>
                     </h5>
+                    <p class="body-card-project">Expedita dolore doloremque corrupti, velit assumenda impedit quos illum sequi voluptas et dolores accusamus pariatur modi est excepturi voluptatum repellat quia beatae rerum necessitatibus? Beatae optio ex obcaecati veniam quas.</p>
+                    <div class="footer-card-project">
+                        <img src="./res/img/icons/star-plus-outline.svg" alt="star-plus-icon" width="20" class="icon">
+                        <img src="./res/img/icons/eye-plus-outline.svg" alt="eye-plus-icon" width="20" class="icon">
+                        <img src="./res/img/icons/share-variant-outline.svg" alt="share-icon" width="20" class="icon">
+                    </div>
                 </div>
-                <div class="card-project" style="border: 1px solid black; margin: 10px;">
+                <div class="card-project">
                     <h5 class="title-card-project">
                         project : 3
-                        <p class="body-card-project">Quis harum exercitationem voluptatum, cum sunt pariatur laborum nisi? Dolorem vero hic suscipit ex cumque. Voluptate esse rem soluta repellendus aliquid. Ex, vitae nesciunt nemo doloremque illo tenetur saepe obcaecati!</p>
-                        <div class="footer-card-project">
-                            <img src="./res/img/icons/star-plus-outline.svg" alt="star-plus-icon" width="20" class="icon">
-                            <img src="./res/img/icons/eye-plus-outline.svg" alt="eye-plus-icon" width="20" class="icon">
-                            <img src="./res/img/icons/share-variant-outline.svg" alt="share-icon" width="20" class="icon">
-                        </div>
                     </h5>
+                    <p class="body-card-project">Quis harum exercitationem voluptatum, cum sunt pariatur laborum nisi? Dolorem vero hic suscipit ex cumque. Voluptate esse rem soluta repellendus aliquid. Ex, vitae nesciunt nemo doloremque illo tenetur saepe obcaecati!</p>
+                    <div class="footer-card-project">
+                        <img src="./res/img/icons/star-plus-outline.svg" alt="star-plus-icon" width="20" class="icon">
+                        <img src="./res/img/icons/eye-plus-outline.svg" alt="eye-plus-icon" width="20" class="icon">
+                        <img src="./res/img/icons/share-variant-outline.svg" alt="share-icon" width="20" class="icon">
+                    </div>
                 </div>
-                <div class="card-project" style="border: 1px solid black; margin: 10px;">
+                <div class="card-project">
                     <h5 class="title-card-project">
                         project : 4
-                        <p class="body-card-project">Consequuntur, perferendis debitis quibusdam impedit dignissimos in quaerat libero eum cupiditate consequatur odit possimus aspernatur totam sunt labore perspiciatis porro, accusamus, saepe ex alias? Quibusdam eos asperiores possimus at inventore?</p>
-                        <div class="footer-card-project">
-                            <img src="./res/img/icons/star-plus-outline.svg" alt="star-plus-icon" width="20" class="icon">
-                            <img src="./res/img/icons/eye-plus-outline.svg" alt="eye-plus-icon" width="20" class="icon">
-                            <img src="./res/img/icons/share-variant-outline.svg" alt="share-icon" width="20" class="icon">
-                        </div>
                     </h5>
+                    <p class="body-card-project">Consequuntur, perferendis debitis quibusdam impedit dignissimos in quaerat libero eum cupiditate consequatur odit possimus aspernatur totam sunt labore perspiciatis porro, accusamus, saepe ex alias? Quibusdam eos asperiores possimus at inventore?</p>
+                    <div class="footer-card-project">
+                        <img src="./res/img/icons/star-plus-outline.svg" alt="star-plus-icon" width="20" class="icon">
+                        <img src="./res/img/icons/eye-plus-outline.svg" alt="eye-plus-icon" width="20" class="icon">
+                        <img src="./res/img/icons/share-variant-outline.svg" alt="share-icon" width="20" class="icon">
+                    </div>
                 </div>
-                <div class="card-project" style="border: 1px solid black; margin: 10px;">
+                <div class="card-project">
                     <h5 class="title-card-project">
                         project : 5
-                        <p class="body-card-project">Quo, quisquam dolorum ipsam placeat illum in quasi dignissimos nisi cupiditate, dicta ipsum voluptatem reprehenderit repellendus eaque, laudantium expedita voluptate explicabo beatae optio recusandae! Nobis totam tenetur possimus dicta enim.</p>
-                        <div class="footer-card-project">
-                            <img src="./res/img/icons/star-plus-outline.svg" alt="star-plus-icon" width="20" class="icon">
-                            <img src="./res/img/icons/eye-plus-outline.svg" alt="eye-plus-icon" width="20" class="icon">
-                            <img src="./res/img/icons/share-variant-outline.svg" alt="share-icon" width="20" class="icon">
-                        </div>
                     </h5>
+                    <p class="body-card-project">Quo, quisquam dolorum ipsam placeat illum in quasi dignissimos nisi cupiditate, dicta ipsum voluptatem reprehenderit repellendus eaque, laudantium expedita voluptate explicabo beatae optio recusandae! Nobis totam tenetur possimus dicta enim.</p>
+                    <div class="footer-card-project">
+                        <img src="./res/img/icons/star-plus-outline.svg" alt="star-plus-icon" width="20" class="icon">
+                        <img src="./res/img/icons/eye-plus-outline.svg" alt="eye-plus-icon" width="20" class="icon">
+                        <img src="./res/img/icons/share-variant-outline.svg" alt="share-icon" width="20" class="icon">
+                    </div>
                 </div>
-                <div class="card-project" style="border: 1px solid black; margin: 10px;">
+                <div class="card-project">
                     <h5 class="title-card-project">
                         project : 6
-                        <p class="body-card-project">Totam pariatur quam temporibus amet quisquam, repellendus asperiores minus laborum neque voluptate porro mollitia atque corrupti maxime cum explicabo voluptatum facere nulla, deleniti vitae enim nam quibusdam, repudiandae aperiam. Asperiores!</p>
-                        <div class="footer-card-project">
-                            <img src="./res/img/icons/star-plus-outline.svg" alt="star-plus-icon" width="20" class="icon">
-                            <img src="./res/img/icons/eye-plus-outline.svg" alt="eye-plus-icon" width="20" class="icon">
-                            <img src="./res/img/icons/share-variant-outline.svg" alt="share-icon" width="20" class="icon">
-                        </div>
                     </h5>
+                    <p class="body-card-project">Totam pariatur quam temporibus amet quisquam, repellendus asperiores minus laborum neque voluptate porro mollitia atque corrupti maxime cum explicabo voluptatum facere nulla, deleniti vitae enim nam quibusdam, repudiandae aperiam. Asperiores!</p>
+                    <div class="footer-card-project">
+                        <img src="./res/img/icons/star-plus-outline.svg" alt="star-plus-icon" width="20" class="icon">
+                        <img src="./res/img/icons/eye-plus-outline.svg" alt="eye-plus-icon" width="20" class="icon">
+                        <img src="./res/img/icons/share-variant-outline.svg" alt="share-icon" width="20" class="icon">
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="announcement-section" style="border: 3px solid rgb(165, 42, 142); margin-top: 10px;">
+        <section class="announcement-section">
             <h3>Announcements</h3>
-            <div class="announcements-container">
+            <div class="section-container">
                 <div class="announcement-card">
                     <h5>Announcement : 1</h5>
-                    <p>lorem</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum quas atque quaerat quae eos repudiandae quam porro vero, velit incidunt esse id impedit cumque! Commodi, eos voluptate. Minima, vel harum!</p>
                 </div>
                 <div class="announcement-card">
                     <h5>Announcement : 2</h5>
-                    <p>lorem</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae magnam impedit asperiores eum, facere nemo obcaecati rem, fuga alias harum laborum eius inventore. Harum assumenda accusantium vitae corrupti aliquam earum?</p>
                 </div>
                 <div class="announcement-card">
                     <h5>Announcement : 3</h5>
-                    <p>lorem</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi culpa inventore dolorum necessitatibus, doloribus ab rem voluptatum sint quia est nobis veniam incidunt officiis delectus repudiandae obcaecati eius aperiam eum.</p>
                 </div>
             </div>
         </section>
 
-        <section class="trending-section" style="border: 3px solid rgb(165, 147, 42); margin-top: 10px;">
+        <section class="trending-section">
             <h3>Trending</h3>
-            <div class="trending-container">
+            <div class="section-container">
                 <div class="trending-card-profile">
                     <img src="./res/img/Open Peeps - Avatar (1).png" alt="icon-image-face-personn" class="avatar small" width="30">
-                    <p>@amolixs</p>
-                    <p>lorem</p>
+                    <div>
+                        <p>@amolixs</p>
+                        <p>lorem</p>
+                    </div>
                 </div>
                 <div class="trending-card-profile">
                     <img src="./res/img/Open Peeps - Avatar.png" alt="icon-image-face-personn" class="avatar small" width="30">
-                    <p>@émilie</p>
-                    <p>lorem</p>
+                    <div>
+                        <p>@amolixs</p>
+                        <p>lorem</p>
+                    </div>
+                </div>
+                <div class="trending-card-profile">
+                    <img src="./res/img/Open Peeps - Avatar.png" alt="icon-image-face-personn" class="avatar small" width="30">
+                    <div>
+                        <p>@amolixs</p>
+                        <p>lorem</p>
+                    </div>
                 </div>
                 <div class="trending-card-profile">
                     <img src="./res/img/Open Peeps - Avatar (3).png" alt="icon-image-face-personn" class="avatar small" width="30">
-                    <p>@jean</p>
-                    <p>lorem</p>
-                </div>
-                <div class="trending-card-profile">
-                    <img src="./res/img/Open Peeps - Avatar (2).png" alt="icon-image-face-personn" class="avatar small" width="30">
-                    <p>@David</p>
-                    <p>lorem</p>
+                    <div>
+                        <p>@amolixs</p>
+                        <p>lorem</p>
+                    </div>
                 </div>
             </div>
         </section>
